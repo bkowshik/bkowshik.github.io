@@ -1,8 +1,6 @@
 # bkowshik.in
 
-Source for [bkowshik.in](https://bkowshik.in) — my personal site.
-
-Built with [Astro](https://astro.build/) on top of the [AstroPaper](https://github.com/satnaing/astro-paper) template. Deployed to [Cloudflare Pages](https://pages.cloudflare.com/).
+Source for [bkowshik.in](https://bkowshik.in) — my personal site. Built with [Astro](https://astro.build/), deployed to [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Local development
 

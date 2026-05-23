@@ -1,0 +1,36 @@
+---
+import { getEntry, render } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import Footer from "@/components/Footer.astro";
+import config from "@/config";
+
+const now = await getEntry("pages", "now");
+
+if (!now) {
+  throw new Error(
+    "Missing content entry: `now.md` or `now.mdx` in `src/content/pages/`"
+  );
+}
+
+const { Content } = await render(now);
+---
+
+<Layout
+  title={`${now.data.title} | ${config.site.title}`}
+  description={now.data.description}
+  ogImage={now.data.ogImage}
+  canonicalURL={now.data.canonicalURL}
+>
+  <Header />
+
+  <Breadcrumb />
+
+  <Main pageTitle={now.data.title} class="app-prose">
+    <Content />
+  </Main>
+
+  <Footer />
+</Layout>

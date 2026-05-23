@@ -1,37 +1,34 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
+description: "A senior data scientist working on noisy real-world sensor data, moving toward neurotech and biosignal applications."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## What I do
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+I work on production ML on noisy real-world sensor data. Co-built [RoboSat](https://github.com/mapbox/robosat) at Mapbox. Led data science at Rapido on ride-hailing marketplace pricing and forecasting. Earlier work at Yulu, NextDrop, and Mindshift on sensor and fleet platforms.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+The shape of the work has been consistent: extract structured signal from messy physical-world data, make operational decisions from it, close the loop with feedback.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Based in Bengaluru.
 
-## Features
+## Where I'm going
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Moving toward neurotech and biosignal applications. The same engineering pattern, with biology on the input side: extract structured signal from noisy neural and physiological data, make decisions or generate outputs from it.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Areas I'm exploring:
 
-and so much more.
+- **Mental-health wearables and digital therapeutics** — physiological signal → state inference → intervention
+- **Clinical EEG and biosignal platforms** — signal quality, artifact rejection, closed-loop neuromodulation
+- **Brain-computer interfaces** — neural decoding, motor imagery, non-invasive and invasive
+- **Neuro-AI and computational neuroscience** — population activity modeling, decoding latent state
 
-## Show your support
+Completed [g.tec Spring School of NeuroTech 2026](https://www.gtec.at/spring-school/). Currently building public neurotech work — entries land on the [Projects](/projects) page as they ship.
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+## Contact
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+- Email — [bhargav.kowshik@gmail.com](mailto:bhargav.kowshik@gmail.com)
+- LinkedIn — [linkedin.com/in/bkowshik](https://www.linkedin.com/in/bkowshik)
+- GitHub — [github.com/bkowshik](https://github.com/bkowshik)
+- X — [@bkowshik](https://x.com/bkowshik)
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Always happy to talk about biosignal, neurotech, or ML on noisy real-world data.

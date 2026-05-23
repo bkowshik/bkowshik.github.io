@@ -1,7 +1,6 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { resolveDefaultOgImagePath } from "@/utils/resolveDefaultOgImagePath";
 import { getAssetPath } from "@/utils/withBase";
 import config from "@/config";
@@ -24,10 +23,9 @@ const {
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.site ?? Astro.url);
-const rssHref = getRelativeLocaleUrl(
-  Astro.currentLocale ?? config.site.lang,
-  "rss.xml"
-);
+// rss.xml is a file endpoint, not a page — hardcode the path to avoid
+// trailing-slash issues from getRelativeLocaleUrl in some Astro versions.
+const rssHref = "/rss.xml";
 ---
 
 <!doctype html>

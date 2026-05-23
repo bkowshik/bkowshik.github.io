@@ -3,7 +3,9 @@ title: "Projects"
 description: "Public work and open source contributions."
 ---
 
-*Currently building public neurotech work — entries land here as they ship.*
+## Current
+
+- **[Neurotech Pulse](https://bkowshik.github.io/neurotech-pulse/)** — a curated read on applied neurotechnology. Daily signals, weekly synthesis, monthly highlights. Primary sources only, Claude-authored under a tight operating brief. [Source](https://github.com/bkowshik/neurotech-pulse). 2026—.
 
 ## Earlier work
 

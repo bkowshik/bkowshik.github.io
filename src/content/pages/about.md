@@ -9,8 +9,6 @@ I work on production ML on noisy real-world sensor data. Co-built [RoboSat](http
 
 The shape of the work has been consistent: extract structured signal from messy physical-world data, make operational decisions from it, close the loop with feedback.
 
-Based in Bengaluru.
-
 ## Where I'm going
 
 Moving toward neurotech and biosignal applications. The same engineering pattern, with biology on the input side: extract structured signal from noisy neural and physiological data, make decisions or generate outputs from it.
@@ -22,7 +20,7 @@ Areas I'm exploring:
 - **Brain-computer interfaces** — neural decoding, motor imagery, non-invasive and invasive
 - **Neuro-AI and computational neuroscience** — population activity modeling, decoding latent state
 
-Completed [g.tec Spring School of NeuroTech 2026](https://www.gtec.at/spring-school/). Currently building public neurotech work — entries land on the [Projects](/projects) page as they ship.
+Currently building public neurotech work — entries land on the [Projects](/projects) page as they ship.
 
 ## Contact
 

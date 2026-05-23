@@ -31,6 +31,7 @@ export default defineAstroPaperConfig({
     { name: "linkedin", url: "https://www.linkedin.com/in/bkowshik/" },
     { name: "x",        url: "https://x.com/bkowshik" },
     { name: "mail",     url: "mailto:bhargav.kowshik@gmail.com" },
+    { name: "rss",      url: "/rss.xml", linkTitle: "RSS feed" },
   ],
   shareLinks: [
     { name: "x",        url: "https://x.com/intent/post?url=" },

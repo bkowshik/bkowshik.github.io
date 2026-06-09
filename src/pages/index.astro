@@ -32,23 +32,28 @@ const homePath = getRelativeLocaleUrl(locale, "");
     class="app-layout"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 text-4xl font-bold sm:my-8 sm:text-5xl">
-        👋
-      </h1>
+      <blockquote
+        class="border-s-accent/80 mt-4 border-s-4 pl-4 text-lg italic opacity-80 sm:mt-8"
+      >
+        NeuroAI → Brain-Computer Interfaces
+      </blockquote>
 
-      <p class="text-lg">
-        Production ML on noisy real-world sensor data. Moving toward neurotech
-        and biosignal applications.
-      </p>
+      <div class="mt-8 space-y-6">
+        <p>
+          I work in NeuroAI — where AI meets neuroscience 🧠. I take raw neural
+          signal and build the machine learning and deep learning models that
+          turn it into insight 💡 — and take them all the way to deployment as
+          data products 📦, not notebooks. I'm a builder at heart 🛠️ — I own
+          problems end to end, from the first messy dataset to a working system.
+        </p>
 
-      <p class="mt-6">
-        <LinkButton
-          class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href={getRelativeLocaleUrl(locale, "about")}
-        >
-          More about me →
-        </LinkButton>
-      </p>
+        <p>
+          I'm building toward brain-computer interfaces 🤖. The decoding work I
+          do now is the groundwork: the better a model reads meaning from neural
+          signals, the closer they come to being real. That's where I'm headed.
+          🚀
+        </p>
+      </div>
     </section>
 
     {

@@ -1,0 +1,36 @@
+---
+import { getEntry, render } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import Footer from "@/components/Footer.astro";
+import config from "@/config";
+
+const uses = await getEntry("pages", "uses");
+
+if (!uses) {
+  throw new Error(
+    "Missing content entry: `uses.md` or `uses.mdx` in `src/content/pages/`"
+  );
+}
+
+const { Content } = await render(uses);
+---
+
+<Layout
+  title={`${uses.data.title} | ${config.site.title}`}
+  description={uses.data.description}
+  ogImage={uses.data.ogImage}
+  canonicalURL={uses.data.canonicalURL}
+>
+  <Header />
+
+  <Breadcrumb />
+
+  <Main pageTitle={uses.data.title} class="app-prose">
+    <Content />
+  </Main>
+
+  <Footer />
+</Layout>

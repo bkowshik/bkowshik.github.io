@@ -79,13 +79,13 @@ os.environ["DATASET_PASSWORD"] = "xxx"
 From PyPI (recommended — the latest tagged release):
 
 ```bash
-!pip install --upgrade "package[all]"
+%pip install --upgrade "package[all]"
 ```
 
 From the GitHub main branch (for unreleased changes):
 
 ```bash
-!pip install --upgrade "package[all] @ git+https://github.com/org/repo.git#subdirectory=package-repo"
+%pip install --upgrade "package[all] @ git+https://github.com/org/repo.git#subdirectory=package-repo"
 ```
 
 ### Why `--upgrade`
@@ -119,7 +119,7 @@ Two fixes:
 1. Upgrade plotly — from `6.8.0` detection uses the `COLAB_NOTEBOOK_ID` environment variable (set only in web Colab) instead of the module import ([plotly.py#5473](https://github.com/plotly/plotly.py/pull/5473)).
 
    ```bash
-   !pip install -U plotly
+   %pip install -U plotly
    ```
 
 2. Or set the renderer explicitly at the top of the notebook (works on any version):
